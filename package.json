@@ -1,0 +1,29 @@
+{
+  "name": "ecomv2app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dva-core": "^1.4.0",
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "react-native-cookies": "^3.3.0",
+    "react-native-side-menu": "^1.1.3",
+    "react-native-swiper": "^1.5.13",
+    "react-navigation": "^2.14.0",
+    "react-redux": "^5.0.7"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.2",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
